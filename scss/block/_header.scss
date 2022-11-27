@@ -1,0 +1,284 @@
+body{
+    background: linear-gradient(210deg, gray,black,green,red,goldenrod,blue);
+    animation-name: body;
+    animation-timing-function: linear;
+    animation-duration: 5s;
+    animation-iteration-count: infinite;
+    animation-timeline: 3s;
+    animation-play-state: running;
+    animation-fill-mode: forwards;
+    
+}
+@keyframes body{
+    30%{
+       background:  linear-gradient(910deg, gray,black,green,goldenrod,blue);
+       transition: all 5s;
+       
+    }
+}
+.container {
+    width: 1000px;
+    height: 500px;
+    border: 1px solid black;
+    margin: 100px auto;
+    position: relative;
+    border-radius: 30px;
+    padding: 30px 30px;
+    background-color: gray;
+
+
+    .box1 {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        position: absolute;
+        animation-name: box1;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+
+
+    }
+
+    @keyframes box1 {
+        0% {
+            color: red;
+            left: 0px;
+            right: 0px;
+            top: 0px;
+            background-color: red;
+            
+        }
+
+        12% {
+            left: 400px;
+            top: 60px;
+        }
+
+        25% {
+            left: 900px;
+            top: 0px;
+            right: 0px;
+            background-color: goldenrod;
+        }
+
+        37% {
+            top: 200px;
+            left: 830px;
+            bottom: 0px;
+        }
+
+        50% {
+            top: 410px;
+            right: 0px;
+            left: 909px;
+            bottom: 0px;
+            background-color: green;
+        }
+
+        62% {
+            left: 450px;
+            top: 350px;
+        }
+
+        75% {
+            left: 0px;
+            bottom: 0px;
+            top: 400px;
+            background-color: blue;
+        }
+
+        87% {
+            top: 200px;
+            left: 50px;
+
+        }
+
+        100% {
+            color: red;
+            left: 0px;
+            right: 0px;
+            top: 0px;
+            background-color: red;
+        }
+
+
+
+    }
+
+    .box2 {
+        width: 150px;
+        height: 150px;
+        border-radius: 50%;
+        position: absolute;
+        right: 0px;
+        animation-name: box2;
+        animation-duration: 5s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes box2 {
+        0% {
+            top: 0px;
+            right: 0px;
+            background-color: gold;
+        }
+
+        12% {
+            top: 200px;
+            right: 50px;
+        }
+
+        25% {
+            top: 407px;
+            right: 0px;
+            bottom: 0px;
+            background-color: green;
+        }
+
+        37% {
+            right: 425px;
+            top: 350px;
+        }
+
+        50% {
+            right: 850px;
+            top: 400px;
+            background-color: blue;
+        }
+
+        62% {
+            top: 200px;
+            right: 800px;
+
+        }
+
+        75% {
+            top: 0px;
+            right: 900px;
+            background-color: red;
+
+        }
+
+        87% {
+            right: 500px;
+            top: 50px;
+
+        }
+
+        100% {
+            background-color: goldenrod;
+            top: 0px;
+        }
+
+
+
+    }
+
+    .box3 {
+        width: 150px;
+        height: 150px;
+        background-color: rgb(16, 247, 47);
+        border-radius: 50%;
+        position: absolute;
+        right: 0px;
+        bottom: 0px;
+        animation-name: box3;
+        animation-duration: 10s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes box3 {
+        0% {
+            bottom: 0px;
+            right: 0px;
+        }
+
+        12% {
+            right: 450px;
+            bottom: 50px;
+        }
+
+        25% {
+            right: 850px;
+            bottom: 0px;
+        }
+
+        36% {
+            bottom: 200px;
+            right: 800px;
+
+        }
+
+        50% {
+            bottom: 400px;
+            right: 890px;
+        }
+
+        63% {
+            right: 500px;
+            top: 50px;
+
+
+        }
+
+        75% {
+            right: 1px;
+            top: 0px;
+        }
+
+
+
+    }
+
+    .box4 {
+        width: 150px;
+        height: 150px;
+        background-color: black;
+        border-radius: 50%;
+        position: absolute;
+        left: 0px;
+        bottom: 0px;
+        animation-name: box4;
+        animation-duration: 10s;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+    }
+
+    @keyframes box4 {
+        0% {
+            left: 0px;
+            bottom: 0px;
+        }
+
+        12% {
+            bottom: 200px;
+            left: 50px;
+
+        }
+
+        25% {
+            bottom: 400px;
+            left: 0px;
+            
+        }
+
+        36% {
+            left: 400px;
+        }
+   
+
+        50% {
+            left: 850px;
+            top: 0px;
+        }
+
+        63% {}
+
+        75% {}
+
+
+    }
+}
